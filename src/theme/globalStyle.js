@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components/macro";
 
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -8,6 +9,7 @@ export default createGlobalStyle`
     list-style: none;
     text-decoration: none;
     outline: none;
+    
   }
 
   body {
@@ -15,5 +17,6 @@ export default createGlobalStyle`
     max-width: 1340px;
     color: #ffffff;
     background-color: #292727;
+    font-family: 'Montserrat', sans-serif;
   }
 `;

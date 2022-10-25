@@ -6,17 +6,17 @@ import Layout from "../../components/layout";
 import { VscLiveShare } from "react-icons/vsc";
 import { DiGithubFull } from "react-icons/di";
 
+import OdsProject from '../../assets/images/odsProject.png'
+
 const ProjectsData = [
   {
     id: 1,
-    image:
-      "https://i.pinimg.com/736x/de/db/e0/dedbe0c7a503fae73f061d6b0e21923f.jpg",
-    name: "Adote um amigo",
-    technologies: "HTML5 e CSS3",
+    image: OdsProject,
+    technologies: "React Js",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis odio vitae luctus aliquet. Proin mattis arcu et tellus lobortis, ut hendrerit nulla tincidunt. Proin fermentum ut ipsum quis accumsan. Suspendisse tellus erat, pharetra sit amet ultrices et, ultricies et urna. In hac habitasse platea dictumst. Nulla et justo tortor. Donec non maximus dolor.",
-    repoLink: "blabla",
-    website: "blabla",
+      "Projeto desenvolvido como parte do desafio final do curso Vai na Web.",
+    repoLink: "https://github.com/dheniffe/OdsRio",
+    website: "#",
   },
   {
     id: 2,

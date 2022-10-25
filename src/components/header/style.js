@@ -39,6 +39,16 @@ export const DesktopNavbarContent = styled.section`
 export const NavbarList = styled.ul`
   display: flex;
   gap: 5rem;
+
+  @media (max-width: 1000px) {
+    width: 90%;
+    position: absolute;
+    flex-direction: column;
+    top: 5rem;
+    right: 1rem;
+    z-index: 1;
+    background-color: #292727;
+  }
 `;
 
 export const ItemList = styled.li`
